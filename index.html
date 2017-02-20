@@ -96,6 +96,7 @@ markerDataObjects.sort(sort_by('collegeName', false, function(a){return a.toUppe
 
 for (var i = 0; i < markerDataObjects.length; i++) {
   var markerData = markerDataObjects[i];
+
   var markerText = "<ins><i>" + markerData.collegeName + " (" + markerData.students.length + ")" + "</ins></i><br>" +
                    "<div style='color:#787373'>" +
 	   	     markerData.students.join("<br>") + "</div>";

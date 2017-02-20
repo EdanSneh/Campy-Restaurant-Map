@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<title>Paly Resturant Map</title>
+		<!-- For Mobile device scaling optimization -->
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		<!-- Inputs Mapbox [map render software] JS and CSS -->
+		<script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+		<link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+		
+		 <!-- CSS Code-->
+		<style>
+			body{margin:0; padding:0; }
+		#map {position:absolute; top:0; bottom:0; width:100%; left:200px;/* account for side tab with margins*/}
+		</style>
+	</head>
+	<body>
+
+		<div id='map'></div>
+		<script src='Restruants-Info.js'></script>
+		<script>
+		// Token needed from edansneh account on mapbox
+		L.mapbox.accessToken = 'pk.eyJ1IjoiZWRhbnNuZWgiLCJhIjoiY2l6ZHJjMmkwMmM0aTJ3cG84OTRqcWZ5OCJ9.b4PGzITgTv5xHX3q6763BA';
+		
+		//starting point and zoom factors of map [latitude, longitide]
+		var map = L.mapbox.map('map','mapbox.streets',{
+			minZoom:5,
+			center: [37, -120.50],
+			zoom: 7,
+			maxZoom:12
+		});
+		//creates markers for each resturant w/ longlagcoords
+		var marker = new L.marker([37, -120], {riseOnHover: true})
+		marker.addTo(map);
+		//add text
+		var markertext = L.popup({
+     		 closeButton: false,
+    		  offset: L.point(0,0)
+    	})
+		.setContent('<div>HelloWorld</div>')
+		
+
+		marker.bindPopup(markertext)
+
+		</script>
+
+
+	</body>
+</html>
+

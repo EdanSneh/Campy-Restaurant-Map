@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset=utf-8 />
 		<title>Paly Resturant Map</title>
@@ -13,7 +14,7 @@
 		<style>
 			body{margin:0; padding:0; }
 		#map {position:absolute; top:0; bottom:0; width:100%; left:210px;}
-		#student-list {
+		#restaurant-list {
 	      position:absolute;
 	      top:0; left:0; width:200px;
 	      bottom:0;
@@ -27,18 +28,33 @@
 	     h3 {
 	     	text-align:center;
 	     }
+
+	     #divid{
+	     	text-align:center;
+	     	padding:5px;
+     		margin:0;
+	     	color: #109923;
+	     	display:block;
+
+	     }
+	     #divid:hover {
+      	color:#103823;
+      	background:#e7efff;
+  }
 		</style>
 	</head>
 	<body>
+	<!-- ???Implement NavBar-->
 		<div width="200px">
-	    	<ul id='student-list'>
-	        	<h3>Resturant List</h3>
-	        	<img src="marker.png" alt="Mountain View" style="width:100px;height:100px;">
+	    	<ul id='restaurant-list'>
+	        	<h3 id='fdiv'>Resturant List</h3>
         	</ul>
         </div>
 		<div id='map'></div>
 		<script src='rest_info.js'></script>
 		<script>
+
+
 		// Token needed from edansneh account on mapbox
 		L.mapbox.accessToken = 'pk.eyJ1IjoiZWRhbnNuZWgiLCJhIjoiY2l6ZHJjMmkwMmM0aTJ3cG84OTRqcWZ5OCJ9.b4PGzITgTv5xHX3q6763BA';
 		
@@ -49,7 +65,7 @@
 			zoom: 7,
 			maxZoom:20
 		});
-		//creates markers for each resturant w/ longlagcoords
+		//creates markers for each restaurant w/ longlagcoords
 		var myIcon = L.icon({
 			iconUrl: 'marker.png',
 			iconRetinaUrl: 'marker.png',
@@ -59,22 +75,63 @@
 			shadowSize: [39, 20],
 			
 		});
+
+		//sorting function for markers
+		//Credit to David Brainer at: http://stackoverflow.com/questions/8837454/sort-array-of-objects-by-single-key-with-date-value
+		function sortByKey(array, key) {
+		    return array.sort(function(a, b) {
+		        var x = a[key].toLowerCase(); var y = b[key].toLowerCase();
+		        return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+		    });
+		}
+		//ordered list of all resturants
+		sortByKey(markerobjects, 'name');
+
+		var previousdiv = document.getElementById('restaurant-list');
 		//produces all of markers
+		var markerL = [];
+
 		for (var i = 0; i <= markerobjects.length - 1; i++) {
-		var nextresturant = markerobjects[i]
-		var marker = new L.marker(markerobjects[i].coordinate, {icon: myIcon});
+			var nextresturant = markerobjects[i]
+			var marker = new L.marker(markerobjects[i].coordinate, {icon: myIcon});
+			markerL.push(marker);
+			marker.addTo(map);
+			//add text
+			var markertext = L.popup({
+	     		 closeButton: false,
+	    		  offset: L.point(0,0)
+	    	})
+	    	/*
+			HTML OF RESTURANTS FOR NEATNESS
 
-		marker.addTo(map);
-		//add text
-		var markertext = L.popup({
-     		 closeButton: false,
-    		  offset: L.point(0,0)
-    	})
-		.setContent("<p>"+markerobjects[i].site+ markerobjects[i].link+markerobjects[i].img+"</a><br/><h1 style='text-align:center;'>"+markerobjects[i].name+"</h1></p>")
-		
+	    	*/
+			.setContent("<p>"+markerobjects[i].site+ markerobjects[i].link+markerobjects[i].img+"</a><br/><h1 style='text-align:center;'>"+markerobjects[i].name+"</h1></p>"
 
-		marker.bindPopup(markertext)
-		}	
+			);
+			
+
+			marker.bindPopup(markertext);
+			//creates HTML div for each element in list
+			var htmlrest = document.createElement('newdiv');
+			htmlrest.id = "divid";
+			previousdiv.appendChild(htmlrest);
+	  		htmlrest.innerHTML = markerobjects[i].name;
+	  		
+	  		markerobjects[i].coordinate;
+	  		
+	  		htmlrest.setAttribute("markerindex", i);
+	  		//creates mouselistener from list to marker
+	  		htmlrest.addEventListener("click", function(e) {
+
+	  		var index = e.target.getAttribute("markerindex");
+	  		map.setView(markerL[index].getLatLng(), 17);
+	  		markerL[index].fire('click');
+	  		});
+
+		}
+
+
+
 		</script>
 
 

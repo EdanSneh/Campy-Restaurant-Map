@@ -61,8 +61,8 @@
 		//starting point and zoom factors of map [latitude, longitide]
 		var map = L.mapbox.map('map','mapbox.streets',{
 			minZoom:5,
-			center: [37, -120.50],
-			zoom: 7,
+			center: [37.44, -122.06],
+			zoom: 12,
 			maxZoom:20
 		});
 		//creates markers for each restaurant w/ longlagcoords
@@ -124,7 +124,7 @@
 	  		htmlrest.addEventListener("click", function(e) {
 
 	  		var index = e.target.getAttribute("markerindex");
-	  		map.setView(markerL[index].getLatLng(), 17);
+	  		map.setView(markerL[index].getLatLng(), 15);
 	  		markerL[index].fire('click');
 	  		});
 

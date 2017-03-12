@@ -1,53 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 	<head>
-		<meta charset=utf-8 />
-		<title>Paly Resturant Map 2</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Paly Restaurant Map</title>
 		<!-- For Mobile device scaling optimization -->
 		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 		<!-- Inputs Mapbox [map render software] JS and CSS -->
 		<script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
 		<link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
-		
-		 <!-- CSS Code-->
-		<style>
-			body{margin:0; padding:0; }
-		#map {position:absolute; top:0; bottom:0; width:100%; left:210px;}
-		#restaurant-list {
-	      position:absolute;
-	      top:0; left:0; width:200px;
-	      bottom:0;
-	      overflow-x:auto;
-	      background:#f7f7f7;
-	      margin:0;
-	      font-family: "Avenir Next", "Avenir", sans-serif;
-	      color: #103823;
-	      padding:5px;
-		}
-	     h3 {
-	     	text-align:center;
-	     }
+	<!-- Imports the separate css file and Campy icon -->
+		<link href="style.css" rel="stylesheet">
+    	<link rel="icon" type="image/png" sizes="16x16" href="favicon-96x96.png">
+    	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
-	     #divid{
-	     	text-align:center;
-	     	padding:5px;
-     		margin:0;
-	     	color: #109923;
-	     	display:block;
-
-	     }
-	     #divid:hover {
-      	color:#103823;
-      	background:#e7efff;
-  }
-		</style>
 	</head>
 	<body>
 	<!-- ???Implement NavBar-->
 		<div width="200px">
 	    	<ul id='restaurant-list'>
-	        	<h3 id='fdiv'>Resturant List</h3>
+	        	<h3 id='fdiv'>Restaurant List</h3>
         	</ul>
         </div>
 		<div id='map'></div>
@@ -105,7 +79,12 @@
 			HTML OF RESTURANTS FOR NEATNESS
 
 	    	*/
-			.setContent("<p>"+markerobjects[i].site+ markerobjects[i].link+markerobjects[i].img+"</a><br/><h1 style='text-align:center;'>"+markerobjects[i].name+"</h1></p>"
+			.setContent("<h1 id='restaurantTitle' style='text-align:center'>"
+				+markerobjects[i].site+ "</h1>"
+				+ markerobjects[i].link+markerobjects[i].img + "</a>"
+				+"<br/>"
+				+ markerobjects[i].link +"<h1 id='restaurantTitle' style='text-align:center;'>"
+				+markerobjects[i].name+"</h1></a></p>"
 
 			);
 			

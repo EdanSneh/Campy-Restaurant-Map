@@ -6,7 +6,7 @@ var markerobjects = [
 		"coordinate"		:[37.401108, -122.114195],
 		"site"				: "Campanile",
 		"img"				: "<img src='Images/pho.jpg' style='width:150px;height:110px;'>",
-		"link"				: "<a href='http://thecampanile.org/2014/01/27/vietnamese-food-pho-you/'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/vietnamese-food-pho-you/'>"
 	},
 	//Pizza Studio
 	{
@@ -14,7 +14,7 @@ var markerobjects = [
 		"coordinate"		:[37.401878, -122.111827],
 		"site"				: "Verde",
 		"img"				: "<img src='Images/pizzastudio.jpg' style='width:150px;height:110px;'>",
-		"link"				: "<a href='http://verdemagazine.com/restaurant-review-pizza-studio'>"
+		"link"				: "<a target=_blank href='http://verdemagazine.com/restaurant-review-pizza-studio'>"
 	},
 	//Ada's Cafe
 	{
@@ -22,7 +22,7 @@ var markerobjects = [
 		"coordinate"		:[37.422320, -122.112654],
 		"site"				: "C Mag",
 		"img"				: "<img src='Images/ada.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
+		"link"				: "<a target=_blank href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
 	},
 	//Zoe's Cafe
 	{
@@ -30,7 +30,7 @@ var markerobjects = [
 		"coordinate"		:[37.459265, -122.152796],
 		"site"				: "C Mag",
 		"img"				: "<img src='Images/zoe.jpg' style='width:87px;height:108px;'>",
-		"link"				: "<a href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
+		"link"				: "<a target=_blank href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
 	},
 	//Coupa Cafe
 	{
@@ -38,7 +38,7 @@ var markerobjects = [
 		"coordinate"		:[37.444706, -122.161547],
 		"site"				: "C Mag",
 		"img"				: "<img src='Images/coupa.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
+		"link"				: "<a target=_blank href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
 	},
 	//Coho Cafe
 	{
@@ -46,7 +46,7 @@ var markerobjects = [
 		"coordinate"		:[37.424060, -122.170887],
 		"site"				: "C Mag",
 		"img"				: "<img src='Images/coho.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
+		"link"				: "<a target=_blank href='http://cmagazine.org/445/food/add-a-story-to-your-site/'>"
 	},
 	//Kirk's
 	{
@@ -54,7 +54,7 @@ var markerobjects = [
 		"coordinate"		:[37.438116, -122.159442],
 		"site"				: "Verde",
 		"img"				: "<img src='Images/kirks.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a href='http://verdemagazine.com/pa-burgers-verde-reviews-popular-burgers-in-palo-alto'>"
+		"link"				: "<a target=_blank href='http://verdemagazine.com/pa-burgers-verde-reviews-popular-burgers-in-palo-alto'>"
 	},
 	//Umami Burger
 	{
@@ -62,7 +62,7 @@ var markerobjects = [
 		"coordinate"		:[37.447623, -122.159577],
 		"site"				: "Verde",
 		"img"				: "<img src='Images/umami.jpg' style='width:250px;height:166px;'>",
-		"link"				: "<a href='http://verdemagazine.com/pa-burgers-verde-reviews-popular-burgers-in-palo-alto'>"
+		"link"				: "<a target=_blank href='http://verdemagazine.com/pa-burgers-verde-reviews-popular-burgers-in-palo-alto'>"
 	},
 	//Coho Cafe
 	{
@@ -70,7 +70,7 @@ var markerobjects = [
 		"coordinate"		:[37.446150, -122.160982],
 		"site"				: "Verde",
 		"img"				: "<img src='Images/sliderbar.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a href='http://verdemagazine.com/pa-burgers-verde-reviews-popular-burgers-in-palo-alto'>"
+		"link"				: "<a target=_blank href='http://verdemagazine.com/pa-burgers-verde-reviews-popular-burgers-in-palo-alto'>"
 	},
 	//Freebirds
 	{
@@ -78,6 +78,6 @@ var markerobjects = [
 		"coordinate"		:[37.425825, -122.146631],
 		"site"				: "Campanile",
 		"img"				: "<img src='Images/freebirds.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a href='http://thecampanile.org/2013/02/22/new-mexican-restaurant-freebirds-combines-relaxed-rocker-atmosphere-with-freedom-to-customize-food/'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2013/02/22/new-mexican-restaurant-freebirds-combines-relaxed-rocker-atmosphere-with-freedom-to-customize-food/'>"
 	},
 ];

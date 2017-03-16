@@ -16,15 +16,45 @@
     	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
+	    	<!-- Bootstrap Core CSS -->
+	    <link href="bootstrap.min.css" rel="stylesheet">
+
+	    <!-- Custom CSS -->
+	    <link href="sidebar.css" rel="stylesheet">
+	    <!-- Bootstrap Core JavaScript -->
+ 	   <script src="bootstrap.min.js"></script>
+ 	   <script src="jquery.js"></script>
+
+ 	   <!-- Easy Button -->
+ 	   <script src="easybutton/easy-button.js"></script>
+ 	   <link href="easy-button.css" rel="stylesheet">
+
 	</head>
 	<body>
 	<!-- ???Implement NavBar-->
-		<div width="200px">
+
+	    <div id="wrapper">
+
+	        <!-- Sidebar -->
+	        <div id="sidebar-wrapper">
+	           
+	            
+		            <ul class="sidebar-brand" id="restaurant-list">
+				        	<h3 id='fdiv'>Restaurant List</h3>
+			        	</ul>
+			        </div> -->
+	            
+	        </div>
+	    
+	    	<div id='map'></div>
+	    </div>
+	    <div> <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a></div>
+		<!-- <div width="200px">
 	    	<ul id='restaurant-list'>
 	        	<h3 id='fdiv'>Restaurant List</h3>
         	</ul>
-        </div>
-		<div id='map'></div>
+        </div> -->
+		
 		<script src='rest_info.js'></script>
 		<script>
 
@@ -49,6 +79,9 @@
 			shadowSize: [39, 20],
 			
 		});
+
+		//easybutton
+		L.easyButton('<a href="#menu-toggle" id="menu-toggle"><img src="house.jpg" height="25px" width="25px"></a>', function(){}).addTo(map);
 
 		//sorting function for markers
 		//Credit to David Brainer at: http://stackoverflow.com/questions/8837454/sort-array-of-objects-by-single-key-with-date-value
@@ -112,7 +145,13 @@
 
 
 		</script>
-
+		<!-- toggles sidebar -->
+		 <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 
 	</body>
 </html>

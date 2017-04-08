@@ -64,7 +64,7 @@ var markerobjects = [
 		"img"				: "<img src='Images/umami.jpg' style='width:250px;height:166px;'>",
 		"link"				: "<a target=_blank href='http://verdemagazine.com/pa-burgers-verde-reviews-popular-burgers-in-palo-alto'>"
 	},
-	//Coho Cafe
+	//Sliderbar
 	{
 		"name"				: "Sliderbar",
 		"coordinate"		:[37.446150, -122.160982],
@@ -80,4 +80,77 @@ var markerobjects = [
 		"img"				: "<img src='Images/freebirds.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2013/02/22/new-mexican-restaurant-freebirds-combines-relaxed-rocker-atmosphere-with-freedom-to-customize-food/'>"
 	},
+	//Verde Tea Kitchen
+	{
+		"name"				: "Verde Tea Kitchen",
+		"coordinate"		:[37.393304, -122.078147],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/vtk.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Tea Time
+	{
+		"name"				: "Tea Time",
+		"coordinate"		:[37.444642, -122.161475],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/freebirds.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Bills cafe
+	{
+		"name"				: "Bill's Cafe",
+		"coordinate"		:[37.429641, -122.122965],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/bill.jpg' style='width:110px;height:50px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Arrillaga Family Dining Commons
+	{
+		"name"				: "Arrillaga Family Dining Commons",
+		"coordinate"		:[37.425350, -122.164063],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/arrig.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Gotts
+	{
+		"name"				: "Gott's Roadside",
+		"coordinate"		:[37.437955, -122.159837],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/gotts.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Spice Kit
+	{
+		"name"				: "Spice Kit",
+		"coordinate"		:[37.427074, -122.144438],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/spice.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Dan Gordons
+	{
+		"name"				: "Dan Gordons",
+		"coordinate"		:[37.443436, -122.160986],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/dangord.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Cafe 220
+	{
+		"name"				: "Cafe 220",
+		"coordinate"		:[37.444961, -122.162363],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/cafe220.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='[N/A]'>"
+	},
+	//Tava's
+	{
+		"name"				: "Tava Kitchen",
+		"coordinate"		:[37.439167, -122.158094],
+		"site"				: "Closed",
+		"img"				: "<img src='Images/tava.jpg' style='width:110px;height:110px;'>",
+		"link"				: ""
+	},
+
 ];

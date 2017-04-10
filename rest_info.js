@@ -106,7 +106,7 @@ var markerobjects = [
 	},
 	//Arrillaga Family Dining Commons
 	{
-		"name"				: "Arrillaga Family Dining Commons",
+		"name"				: "Arrillaga FDC",
 		"coordinate"		:[37.425350, -122.164063],
 		"site"				: "Campanile",
 		"img"				: "<img src='Images/arrig.jpg' style='width:110px;height:110px;'>",
@@ -148,9 +148,112 @@ var markerobjects = [
 	{
 		"name"				: "Tava Kitchen",
 		"coordinate"		:[37.439167, -122.158094],
-		"site"				: "Closed",
+		"site"				: "Campanile (Closed)",
 		"img"				: "<img src='Images/tava.jpg' style='width:110px;height:110px;'>",
-		"link"				: ""
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/28/what-to-eat-at-town-and-country-on-a-tight-budget/'>"
 	},
-
+	//PokeLove
+	{
+		"name"				: "PokeLove",
+		"coordinate"		:[37.438624, -122.160531],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/poke.jpg' style='width:110px;height:80px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/09/14/pokelove-offers-trendy-lunch-option/'>"
+	},
+	//Psycho Donuts
+	{
+		"name"				: "Psycho Donuts",
+		"coordinate"		:[37.332283, -121.885977],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/psycho.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/02/28/aesthetic-food-and-dessert-trends-gain-popularity/'>"
+	},	
+	//Shakedown
+	{
+		"name"				: "Shakedown",
+		"coordinate"		:[37.786038, -122.416946],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/shakedown.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/02/28/aesthetic-food-and-dessert-trends-gain-popularity/'>"
+	},	
+	//Yayoi
+	{
+		"name"				: "Yayoi",
+		"coordinate"		:[37.447357, -122.160505],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/yayoi.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/03/16/yayoi-offers-authentic-japanese-cuisine/'>"
+	},	
+	//Thyme
+	{
+		"name"				: "Thyme",
+		"coordinate"		:[37.447337, -122.157866],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/thyme.png' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/02/02/thyme-offers-different-take-on-classic-cuisine/'>"
+	},
+	//Trader Joe's
+	{
+		"name"				: "Trader Joe's",
+		"coordinate"		:[37.438474, -122.157620],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/joe.png' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2015/05/01/trader-joes-salads-provide-diverse-options/'>"
+	},	
+	//Student Center
+	{
+		"name"				: "Paly Student Center",
+		"coordinate"		:[37.436661, -122.156631],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/tava.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2015/10/12/student-center-offers-convenient-lunch-options/'>"
+	},
+	//Gourmet Haus Staudt
+	{
+		"name"				: "Gourmet Haus Staudt",
+		"coordinate"		:[37.486116, -122.233541],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/german.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
+	},
+	//Eggettes
+	{
+		"name"				: "Eggettes",
+		"coordinate"		:[37.649126, -122.430217],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/egg.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
+	},
+	//Kolbeh
+	{
+		"name"				: "Kolbeh",
+		"coordinate"		:[37.389199, -122.090329],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/kabab.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
+	},
+	//A-Jay’s Cheesesteaks
+	{
+		"name"				: " A-Jay’s Cheesesteaks",
+		"coordinate"		:[37.129207, -121.652775],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/ajay.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
+	},
+	//Bare Bowls
+	{
+		"name"				: "Bare Bowls",
+		"coordinate"		:[37.444116, -122.162359],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/bare.png' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2015/05/21/acai-bowls-serve-as-new-healthy-choice-option/'>"
+	},
+	//Sushirrito
+	{
+		"name"				: "Sushirrito",
+		"coordinate"		:[37.447551, -122.159635],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/suhi.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2015/02/06/sushiritto-expands-into-palo-alto/'>"
+	},
 ];

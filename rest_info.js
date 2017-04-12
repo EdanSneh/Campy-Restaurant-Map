@@ -84,65 +84,65 @@ var markerobjects = [
 	{
 		"name"				: "Verde Tea Kitchen",
 		"coordinate"		:[37.393304, -122.078147],
-		"site"				: "Campanile",
+		"site"				: "Beginning Journalism",
 		"img"				: "<img src='Images/vtk.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/04/11/verde-tea-kitchen-another-tea-bistro/'>"
 	},
 	//Tea Time
 	{
 		"name"				: "Tea Time",
 		"coordinate"		:[37.444642, -122.161475],
-		"site"				: "Campanile",
-		"img"				: "<img src='Images/freebirds.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"site"				: "Beginning Journalism",
+		"img"				: "<img src='Images/teatime.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/04/11/teatime/'>"
 	},
 	//Bills cafe
 	{
 		"name"				: "Bill's Cafe",
 		"coordinate"		:[37.429641, -122.122965],
-		"site"				: "Campanile",
+		"site"				: "Beginning Journalism",
 		"img"				: "<img src='Images/bill.jpg' style='width:110px;height:50px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/04/11/bills-cafe-family-first/'>"
 	},
 	//Arrillaga Family Dining Commons
 	{
 		"name"				: "Arrillaga FDC",
 		"coordinate"		:[37.425350, -122.164063],
-		"site"				: "Campanile",
+		"site"				: "Beginning Journalism",
 		"img"				: "<img src='Images/arrig.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/04/11/arrillaga-dining-commons-the-peninsulas-best-kept-dining-secret/'>"
 	},
 	//Gotts
 	{
 		"name"				: "Gott's Roadside",
 		"coordinate"		:[37.437955, -122.159837],
-		"site"				: "Campanile",
+		"site"				: "Beginning Journalism",
 		"img"				: "<img src='Images/gotts.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/04/11/gotts-is-just-another-average-overpriced-lunch-spot/'>"
 	},
 	//Spice Kit
 	{
 		"name"				: "Spice Kit",
 		"coordinate"		:[37.427074, -122.144438],
-		"site"				: "Campanile",
+		"site"				: "Beginning Journalism",
 		"img"				: "<img src='Images/spice.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/04/11/spice-kit-offers-quality-food-at-good-price/'>"
 	},
 	//Dan Gordons
 	{
 		"name"				: "Dan Gordons",
 		"coordinate"		:[37.443436, -122.160986],
-		"site"				: "Campanile",
+		"site"				: "Beginning Journalism",
 		"img"				: "<img src='Images/dangord.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/04/12/dan-gordons-a-western-delight/'>"
 	},
 	//Cafe 220
 	{
 		"name"				: "Cafe 220",
 		"coordinate"		:[37.444961, -122.162363],
-		"site"				: "Campanile",
+		"site"				: "Beginning Journalism",
 		"img"				: "<img src='Images/cafe220.jpg' style='width:110px;height:110px;'>",
-		"link"				: "<a target=_blank href='[N/A]'>"
+		"link"				: "<a target=_blank href='http://thecampanile.org/2017/03/28/cafe-220-delights-with-scrumptious-grilling/'>"
 	},
 	//Tava's
 	{
@@ -189,7 +189,7 @@ var markerobjects = [
 		"name"				: "Thyme",
 		"coordinate"		:[37.447337, -122.157866],
 		"site"				: "Campanile",
-		"img"				: "<img src='Images/thyme.png' style='width:110px;height:110px;'>",
+		"img"				: "<img src='Images/thyme.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/02/02/thyme-offers-different-take-on-classic-cuisine/'>"
 	},
 	//Trader Joe's
@@ -205,7 +205,7 @@ var markerobjects = [
 		"name"				: "Paly Student Center",
 		"coordinate"		:[37.436661, -122.156631],
 		"site"				: "Campanile",
-		"img"				: "<img src='Images/tava.jpg' style='width:110px;height:110px;'>",
+		"img"				: "<img src='Images/paly.gif' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2015/10/12/student-center-offers-convenient-lunch-options/'>"
 	},
 	//Gourmet Haus Staudt
@@ -256,4 +256,69 @@ var markerobjects = [
 		"img"				: "<img src='Images/suhi.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2015/02/06/sushiritto-expands-into-palo-alto/'>"
 	},
+	//Douce France
+	{
+		"name"				: "Douce France",
+		"coordinate"		:[37.439014, -122.159016],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/farnce.png' style='width:110px;height:55px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
+	},
+	//Asian Box
+	{
+		"name"				: "Asian Box",
+		"coordinate"		:[37.438702, -122.159852],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/abox.png' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
+	},
+	//Sushi House
+	{
+		"name"				: "Sushi House",
+		"coordinate"		:[37.439255, -122.158235],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/suhou.jpg' style='width:110px;height:75px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
+	},
+	//Jamba Juice
+	{
+		"name"				: "Jamba Juice",
+		"coordinate"		:[37.438853, -122.159623],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/jamba.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
+	},
+	//Simply Sandwiches
+	{
+		"name"				: "Simply Sandwiches",
+		"coordinate"		:[37.426468, -122.144324],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/ike.jpg' style='width:110px;height:60px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
+	},
+	//Peninsula Creamery - Dairy Store
+	{
+		"name"				: "Peninsula Creamery",
+		"coordinate"		:[37.440619, -122.158339],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/cream.jpg' style='width:110px;height:55px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
+	},
+	//The Melt
+	{
+		"name"				: "The Melt",
+		"coordinate"		:[37.443114, -122.172658],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/melt.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
+	},
+	//Driftwood Deli and Market 
+	{
+		"name"				: "Driftwood Deli and Market",
+		"coordinate"		:[37.419113, -122.134947],
+		"site"				: "Campanile",
+		"img"				: "<img src='Images/deli.jpg' style='width:110px;height:110px;'>",
+		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
+	},
+
 ];

@@ -75,6 +75,9 @@
 			
 		});
 
+		//activate on open
+		$("#wrapper").toggleClass("toggled");
+
 		//easybutton search
 		L.easyButton('fa-search', function() {
         $("#wrapper").toggleClass("toggled");
@@ -112,9 +115,11 @@
 	     		 closeButton: false,
 	    		  offset: L.point(0,0)
 	    	})
+
+			
 	    	/*
 			HTML OF RESTURANTS FOR NEATNESS
-
+			
 	    	*/
 			.setContent("<h1 id='restaurantTitle' style='text-align:center'>"
 				+markerobjects[i].site+ "</h1>"

@@ -4,7 +4,7 @@ var markerobjects = [
 	{
 		"name"				: "Pho Vi Hoa",
 		"coordinate"		:[37.401108, -122.114195],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/pho.jpg' style='width:150px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/vietnamese-food-pho-you/'>"
 	},
@@ -76,7 +76,7 @@ var markerobjects = [
 	{
 		"name"				: "Freebirds",
 		"coordinate"		:[37.425825, -122.146631],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/freebirds.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2013/02/22/new-mexican-restaurant-freebirds-combines-relaxed-rocker-atmosphere-with-freedom-to-customize-food/'>"
 	},
@@ -148,7 +148,7 @@ var markerobjects = [
 	{
 		"name"				: "Tava Kitchen",
 		"coordinate"		:[37.439167, -122.158094],
-		"site"				: "Campanile (Closed)",
+		"site"				: "The Campanile (Closed)",
 		"img"				: "<img src='Images/tava.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/28/what-to-eat-at-town-and-country-on-a-tight-budget/'>"
 	},
@@ -156,7 +156,7 @@ var markerobjects = [
 	{
 		"name"				: "PokeLove",
 		"coordinate"		:[37.438624, -122.160531],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/poke.jpg' style='width:110px;height:80px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/09/14/pokelove-offers-trendy-lunch-option/'>"
 	},
@@ -164,7 +164,7 @@ var markerobjects = [
 	{
 		"name"				: "Psycho Donuts",
 		"coordinate"		:[37.332283, -121.885977],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/psycho.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2017/02/28/aesthetic-food-and-dessert-trends-gain-popularity/'>"
 	},	
@@ -172,7 +172,7 @@ var markerobjects = [
 	{
 		"name"				: "Shakedown",
 		"coordinate"		:[37.786038, -122.416946],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/shakedown.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2017/02/28/aesthetic-food-and-dessert-trends-gain-popularity/'>"
 	},	
@@ -180,7 +180,7 @@ var markerobjects = [
 	{
 		"name"				: "Yayoi",
 		"coordinate"		:[37.447357, -122.160505],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/yayoi.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/03/16/yayoi-offers-authentic-japanese-cuisine/'>"
 	},	
@@ -188,7 +188,7 @@ var markerobjects = [
 	{
 		"name"				: "Thyme",
 		"coordinate"		:[37.447337, -122.157866],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/thyme.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/02/02/thyme-offers-different-take-on-classic-cuisine/'>"
 	},
@@ -196,7 +196,7 @@ var markerobjects = [
 	{
 		"name"				: "Trader Joe's",
 		"coordinate"		:[37.438474, -122.157620],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/joe.png' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2015/05/01/trader-joes-salads-provide-diverse-options/'>"
 	},	
@@ -204,7 +204,7 @@ var markerobjects = [
 	{
 		"name"				: "Paly Student Center",
 		"coordinate"		:[37.436661, -122.156631],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/paly.gif' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2015/10/12/student-center-offers-convenient-lunch-options/'>"
 	},
@@ -212,7 +212,7 @@ var markerobjects = [
 	{
 		"name"				: "Gourmet Haus Staudt",
 		"coordinate"		:[37.486116, -122.233541],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/german.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
 	},
@@ -220,7 +220,7 @@ var markerobjects = [
 	{
 		"name"				: "Eggettes",
 		"coordinate"		:[37.649126, -122.430217],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/egg.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
 	},
@@ -228,7 +228,7 @@ var markerobjects = [
 	{
 		"name"				: "Kolbeh",
 		"coordinate"		:[37.389199, -122.090329],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/kabab.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
 	},
@@ -236,7 +236,7 @@ var markerobjects = [
 	{
 		"name"				: " A-Jay’s Cheesesteaks",
 		"coordinate"		:[37.129207, -121.652775],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/ajay.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2016/01/27/places-to-eat-near-the-caltrain-station-2/'>"
 	},
@@ -244,7 +244,7 @@ var markerobjects = [
 	{
 		"name"				: "Bare Bowls",
 		"coordinate"		:[37.444116, -122.162359],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/bare.png' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2015/05/21/acai-bowls-serve-as-new-healthy-choice-option/'>"
 	},
@@ -252,7 +252,7 @@ var markerobjects = [
 	{
 		"name"				: "Sushirrito",
 		"coordinate"		:[37.447551, -122.159635],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/suhi.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2015/02/06/sushiritto-expands-into-palo-alto/'>"
 	},
@@ -260,7 +260,7 @@ var markerobjects = [
 	{
 		"name"				: "Douce France",
 		"coordinate"		:[37.439014, -122.159016],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/farnce.png' style='width:110px;height:55px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
 	},
@@ -268,7 +268,7 @@ var markerobjects = [
 	{
 		"name"				: "Asian Box",
 		"coordinate"		:[37.438702, -122.159852],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/abox.png' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
 	},
@@ -276,7 +276,7 @@ var markerobjects = [
 	{
 		"name"				: "Sushi House",
 		"coordinate"		:[37.439255, -122.158235],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/suhou.jpg' style='width:110px;height:75px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
 	},
@@ -284,7 +284,7 @@ var markerobjects = [
 	{
 		"name"				: "Jamba Juice",
 		"coordinate"		:[37.438853, -122.159623],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/jamba.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2013/10/11/bites-for-the-broke-inexpensive-tc-lunches/'>"
 	},
@@ -292,7 +292,7 @@ var markerobjects = [
 	{
 		"name"				: "Simply Sandwiches",
 		"coordinate"		:[37.426468, -122.144324],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/ike.jpg' style='width:110px;height:60px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
 	},
@@ -300,7 +300,7 @@ var markerobjects = [
 	{
 		"name"				: "Peninsula Creamery",
 		"coordinate"		:[37.440619, -122.158339],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/cream.jpg' style='width:110px;height:55px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
 	},
@@ -308,7 +308,7 @@ var markerobjects = [
 	{
 		"name"				: "The Melt",
 		"coordinate"		:[37.443114, -122.172658],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/melt.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
 	},
@@ -316,7 +316,7 @@ var markerobjects = [
 	{
 		"name"				: "Driftwood Deli and Market",
 		"coordinate"		:[37.419113, -122.134947],
-		"site"				: "Campanile",
+		"site"				: "The Campanile",
 		"img"				: "<img src='Images/deli.jpg' style='width:110px;height:110px;'>",
 		"link"				: "<a target=_blank href='http://thecampanile.org/2014/01/27/sandwich-shops-that-palo-altans-should-relish/'>"
 	},
